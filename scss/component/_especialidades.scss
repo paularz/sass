@@ -1,0 +1,18 @@
+.especialidades {
+    margin: 100px 0px;
+    text-align: center;
+
+    & img{
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 700;
+        color: $color-h2;
+        margin-bottom: 30px;
+    }
+    
+}
+
+

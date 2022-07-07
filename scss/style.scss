@@ -1,0 +1,15 @@
+@import './base/variables';
+@import './base/fonts';
+
+@import './component/contacto';
+@import './component/especialidades';
+@import './component/somos';
+@import './component/hero';
+@import './component/planes';
+@import './component/galeria';
+@import './component/footer';
+
+body{
+font-family: $main-font;
+}
+

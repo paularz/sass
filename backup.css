@@ -1,0 +1,157 @@
+/* Hero */
+
+.dark-bg {
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    height: 100vh;
+}
+
+.titulo {
+    color: #000000;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#btn-hero{
+    background-color: #7143FF;
+    color: #FFFFFF;
+    width: 150px;
+    margin-top: 20px;
+
+}
+
+#hero-p {
+    color: #000000;
+    font-weight: 500;
+}
+
+/* Quienes somos */
+
+.somos {
+    padding-top: 100px;
+}
+
+
+h3 {
+    font-size: 18px;
+}
+
+/* Especialidades */
+
+.especialidades {
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.especialidades img{
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #7143FF;
+    margin-bottom: 30px;
+}
+
+
+/*  Planes */
+
+#planes .card {
+    background-color: #ececec;
+    border: none;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+#planes h5 {
+    margin-bottom: 20px;
+}
+
+
+
+.btn-card {
+    margin-top: 20px;
+}
+
+.btn-card .btn {
+    background-color: #7143FF;
+    color: #FFFFFF;
+    border: none;
+}
+
+/*  Galeria */
+
+#galeria img{
+    width: 100%;
+    height: 230px;
+}
+
+#galeria .col-lg-4 {
+    padding: 10px;
+}
+
+#galeria {
+    padding: 0px 80px;
+    margin-bottom: 70px;
+}
+
+/*  Contacto */
+
+#contacto {
+    margin-bottom: 50px;
+}
+
+#contacto .form-control {
+    width: 350px;
+
+}
+
+#contacto input {
+    margin-bottom: 15px;
+}
+
+
+
+/*  Footer */
+
+footer {
+    background-color: #7143FF;
+    padding: 20px 0px;
+    color: #FFFFFF;
+
+}
+
+.btn {
+    color: #363636;
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    border: none;
+}
+
+.form-control {
+    display: flex;
+    width: 200px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banr {
+    margin-top: 90px;
+}
+
+
+/*  Transiciones y animaciones */
+
