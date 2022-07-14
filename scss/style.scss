@@ -1,5 +1,8 @@
 @import './base/variables';
 @import './base/fonts';
+@import './base/mapas';
+@import './base/extend';
+@import './base/mixins';
 
 @import './component/contacto';
 @import './component/especialidades';
@@ -9,7 +12,24 @@
 @import './component/galeria';
 @import './component/footer';
 
+
+
+
 body{
 font-family: $main-font;
 }
 
+p {
+    color: #363636;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: $color-h2;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
