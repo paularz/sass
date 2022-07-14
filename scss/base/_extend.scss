@@ -1,0 +1,13 @@
+%links {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #666666;
+    @extend %links;
+}
+
+.link-footer {
+    color: #FFFFFF;
+    @extend %links;
+}

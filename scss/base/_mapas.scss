@@ -1,0 +1,26 @@
+$top:  (
+    color-top: #ffffff,
+        bg-top: #7143FF,
+        border-top: none,
+        
+    
+);
+
+
+$bottom: (
+    color-top: #363636,
+    bg-top: #ffffff,
+    border-top: none,
+);
+
+
+.btn-card {
+    background-color: map-get($top, $bg-top );
+}
+
+.btn {
+    background-color: map-get($bottom, $bg-top );
+}
+
+
+

@@ -1,0 +1,11 @@
+@mixin align {
+    text-align: center;
+}
+
+.tratamientos {
+    @include align
+}
+
+.card {
+    @include align
+}
