@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+.link-footer, .nav-link {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #666666;
+}
+
+.link-footer {
+  color: #FFFFFF;
+}
+
+.tratamientos {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+}
+
 #contacto {
   margin-bottom: 50px;
 }
@@ -32,21 +52,21 @@
   font-size: 18px;
 }
 
-.dark-bg {
-  background-image: url("/img/hero.jpg");
+.hero {
+  position: relative;
+  background: url(../img/hero.jpg);
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
 }
-
-#hero .container {
-  height: 100vh;
-}
-
-.titulo {
-  color: #000000;
-  font-weight: 700;
+.hero h1 {
   font-size: 60px;
+  font-weight: 900;
+}
+.hero p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
 }
 
 #btn-hero {
@@ -56,27 +76,15 @@
   margin-top: 20px;
 }
 
-#hero-p {
-  color: #000000;
-  font-weight: 500;
-}
-
 #planes .card {
   background-color: #ececec;
   border: none;
   width: 100%;
   padding: 30px 20px;
 }
-
-#planes h5 {
+#planes h3 {
   margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #7143FF;
-  margin-bottom: 30px;
+  font-weight: 600;
 }
 
 .btn-card {
@@ -88,8 +96,11 @@ h2 {
   border: none;
 }
 
+#p-planes {
+  font-size: 20px;
+}
+
 #galeria {
-  padding: 0px 80px;
   margin-bottom: 70px;
 }
 #galeria img {
@@ -113,13 +124,13 @@ footer a {
 
 .btn {
   color: #363636;
-  background-color: rgb(255, 255, 255);
+  background-color: #FFFFFF;
   border: none;
 }
 
 .form-control {
   display: flex;
-  width: 200px;
+  width: 100px;
 }
 
 .banner img {
@@ -130,8 +141,31 @@ footer a {
   margin-top: 90px;
 }
 
+.bg-nav {
+  background-color: #fafafa;
+}
+
+.ms-auto {
+  margin-right: 10px;
+}
+
 body {
   font-family: "Lato", sans-serif;
+}
+
+p {
+  color: #363636;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #7143FF;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
