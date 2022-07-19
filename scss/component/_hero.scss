@@ -1,19 +1,23 @@
-.dark-bg {
-    background-image: url('/img/hero.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+.hero {
+	position: relative;
+	background: url(../img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+    min-height: 100vh;
+
+    h1 {
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 600;
+        color: #000000;
+    }
 }
 
-#hero .container {
-    height: 100vh;
-}
 
-.titulo {
-    color: $color-text;
-    font-weight: 700;
-    font-size: 60px;
-}
 
 #btn-hero{
     background-color: $color-btn;
@@ -23,7 +27,3 @@
 
 }
 
-#hero-p {
-    color: $color-text;
-    font-weight: 500;
-}
