@@ -2,19 +2,25 @@ footer {
     background-color: #7143FF;
     padding: 20px 0px;
     color: #FFFFFF;
+    width: 100%;
+    margin: 0 auto;
 
     a {
         color: #FFFFFF;
         text-decoration: none;
     }
 
+  
+
 }
 
-.btn {
-    color: #363636;
-    background-color: #FFFFFF;
-    border: none;
+
+i.bi {
+   font-size: 1.5em;
+   padding-right: 10px;
 }
+
+
 
 .form-control {
     display: flex;
@@ -28,4 +34,8 @@ footer {
 
 .banr {
     margin-top: 90px;
+}
+
+.footer-text {
+    color: #FFFFFF;
 }
